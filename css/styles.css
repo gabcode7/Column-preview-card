@@ -1,0 +1,91 @@
+/* 
+    Google Fonts
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+*/
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color:hsl(0, 0%, 95%);
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 78%;
+    font-size: 0.8em;
+    line-height: 1.8;
+}
+
+a {
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 1000px;
+}
+
+.cards {
+    border-radius: 5%;
+    display:flex;
+}
+
+.col {
+    display: inline-block;
+    width: 23%;
+    height: 390px;
+}
+
+.card {
+    padding: 5%;
+}
+
+.button {
+    margin-top: 40%;
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+    width: 50%;
+    padding: 5%;
+    border-radius: 20px;
+}
+
+#sedan-link {
+    color: hsl(31, 77%, 52%);
+}
+
+#suvs-link {
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury-link {
+    color: hsl(179, 100%, 13%);;
+}
+
+#sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 2% 0% 0% 2%;
+}
+
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0% 2% 2% 0%;
+}
